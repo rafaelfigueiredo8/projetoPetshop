@@ -10,10 +10,11 @@
 <br>
 <h1 align="center"> Projeto - PetShop </h1>
 <br>
-Colocar aqui o Detalhamento do projeto.....
+Projeto 5/5
+<br><br>
 ## Integrantes do Grupo:
-<br>[Adriele Aparecida Bittencourt](https://github.com/)
-<br>[Leonardo Santos Martinho](https://github.com/)
-<br>[Rafael Figueiredo](https://github.com/rafaelfigueiredo8)<br>
+<br> Adriele Aparecida Bittencourt (https://github.com/)
+<br> Leonardo Santos Martinho(https://github.com/)
+<br> Rafael Figueiredo (https://github.com/rafaelfigueiredo8)<br>
 ## 📰 Descrição do Projeto:
  Projeto 5/5
