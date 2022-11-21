@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Projeto para Petshop">
+    <link rel="stylesheet" th:href="@{assets/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{assets/style-searchAll.css}">
+    <script th:src="@{assets/jquery-3.4.1.min.js}"></script>
+    <script src="https://kit.fontawesome.com/006642858d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP|Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <script th:src="@{assets/bootstrap.min.js}"></script>
+    <script th:src="@{assets/bootstrap.bundle.min.js}"></script>
+    <title>Crud Pessoa :: Petshop</title>
+    <style>
+      table, th, td {
+      border: 2px solid orange;
+      border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body>
+<a href="insert">Inserir novo</a> | <a href="read">Ver todos</a> <br> <br>
+<table style="width:100%">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-hover">
+    <thead>
+    <tr class="active">
+        <th scope="col">ID</td>
+        <th scope="col">Nome</td>
+        <th scope="col">E-mail</td>
+        <th scope="col">Código Nacional</td>
+        <th scope="col">Excluir [?]</td>
+        <th scope="col">Alterar [?]</td>
+    </tr>
+    </thead>
+                    <tbody>
+    <tr th:each="pessoa : ${pessoas}">
+        <td th:text="${pessoa.id}"></td>
+        <td th:text="${pessoa.name}"></td>
+        <td th:text="${pessoa.email}"></td>
+        <td th:text="${pessoa.codNacional.name}"></td>
+        <td><a th:href="@{/delete(id=${pessoa.id})}"style="color: red;"><i class="fas fa-times"></i> Excluir</a></td>
+        <td><a th:href="@{/update(id=${pessoa.id})}">Alterar</a></td>
+    </tr>
+                    </tbody>
+                </table>
+            </div>
+</body>
+</html>
