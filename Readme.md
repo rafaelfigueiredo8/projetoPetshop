@@ -1,7 +1,7 @@
 <div style="display: inline_block" align="center">
   <br>
 
-  ![image]()
+ 
   ![image](https://raw.githubusercontent.com/rafaelfigueiredo8/Projeto-BarberShop/main/documentation/logo-cotemig.png)
 
 
@@ -12,8 +12,8 @@
 <br>
 Colocar aqui o Detalhamento do projeto.....
 ## Integrantes do Grupo:
-[Adriele Aparecida Bittencourt](https://github.com/)
-[Leonardo Santos Martinho](https://github.com/)
-[Rafael Figueiredo](https://github.com/rafaelfigueiredo8)
+<br>[Adriele Aparecida Bittencourt](https://github.com/)
+<br>[Leonardo Santos Martinho](https://github.com/)
+<br>[Rafael Figueiredo](https://github.com/rafaelfigueiredo8)<br>
 ## 📰 Descrição do Projeto:
  Projeto 5/5
