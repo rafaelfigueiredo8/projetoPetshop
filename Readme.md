@@ -15,6 +15,8 @@ Projeto 5/5
 ## Integrantes do Grupo:
 <br> Adriele Aparecida Bittencourt (https://github.com/)
 <br> Leonardo Santos Martinho(https://github.com/)
-<br> Rafael Figueiredo (https://github.com/rafaelfigueiredo8)<br>
-## 📰 Descrição do Projeto:
+<br> Rafael Figueiredo (https://github.com/rafaelfigueiredo8)
+<br> Igor Deleon (https://github.com/Ziguuh)<br> 
+
+## 📰 Descrição do Projeto:<br>
  Projeto 5/5
